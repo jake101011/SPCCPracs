@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<conio.h>
+MACRO
+&LAB INCR &ARG1 , &ARG2 , &ARG3
+&LAB ADD AREG, &ARG1
+     ADD AREG, &ARG2
+     ADD AREG, &ARG3
+MEND  
